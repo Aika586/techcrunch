@@ -1,6 +1,5 @@
-## Project 1
-
-
+## Techcrunch Project
+> Project 1 of 3
 ### Project structure
 
 ```
@@ -9,8 +8,8 @@ src/
 |- index.jsx _______________________________ # Application entry
 |- App.jsx _________________________________ # Application init
 |  |- Components/
-|    |- hello-world/
-|       |- index.jsx _______________________ # Sample component
+|    |- news/
+|       |- index.jsx _______________________ # News component
 
 webpack
 |- paths.js ________________________________ # webpack paths needed
@@ -38,8 +37,6 @@ webpack
 - `webpack/webpack.prod.js` config webpack for production environment.
 - `/webpack.config.js` main webpack config that merge common and webpack environment based config.
 - Enzyme config `/setupTest.js` here you will have all setup for enzyme to test your component.
-- Prettier config `/.prettierc`.
-- Browsers list config `/.browserslistrc`.
 
 #### Technologies used
 
@@ -49,10 +46,8 @@ webpack
 - [Lodash](https://github.com/lodash/lodash)
 - [Jest](https://github.com/facebook/jest) [ Unit test]
 - [Enzyme](http://airbnb.io/enzyme/) for UI testing.
-- [Eslint](https://github.com/eslint/eslint/) with airbnb config
-- [Prettier](https://github.com/prettier/prettier) [ Code formatter ]
 - [Style](https://github.com/webpack-contrib/style-loader) & [CSS Loader](https://github.com/webpack-contrib/css-loader) & [SASS-loader](https://github.com/webpack-contrib/sass-loader)
 - [CSS modules](https://github.com/css-modules/css-modules) [ Isolated style based on each component ]
-- [Browsers list](https://github.com/browserslist/browserslist) [ Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env ]
 - [React hot loader](https://github.com/gaearon/react-hot-loader)
 - [Webpack dev serve](https://github.com/webpack/webpack-dev-server)
+- [InfiniteScroll](https://www.npmjs.com/package/react-infinite-scroll-component)
