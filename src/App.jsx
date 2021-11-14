@@ -6,7 +6,7 @@ import { getNews } from "./redux/actions";
 import { useSelector, useDispatch } from "react-redux";
 
 const App = () => {
-  const news = useSelector((news) => state.news.news);
+  const news = useSelector((state) => state.news.news);
   const dispatch = useDispatch();
 
   useEffect(() => {
